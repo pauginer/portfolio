@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>cover-message-translation</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="300" height="300"></rect>
+        <rect id="path-2" x="44" y="77" width="212.034783" height="96" rx="2"></rect>
+        <rect id="path-3" x="34" y="86" width="231.913043" height="105" rx="2"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-1" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cover-message-translation">
+            <g id="Rectangle-23">
+                <use fill="#F8F8F8" xlink:href="#path-1"></use>
+                <use fill="#333333" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle-38-Copy-4">
+                <use stroke="#555555" stroke-width="1" fill="#FBFBFB" xlink:href="#path-2"></use>
+                <use stroke="none" fill-opacity="0.800000012" fill="#333333" xlink:href="#path-2"></use>
+            </g>
+            <g id="Rectangle-38-Copy-3">
+                <use stroke="#777777" stroke-width="1" fill="#FBFBFB" xlink:href="#path-3"></use>
+                <use stroke="none" fill-opacity="0.600000024" fill="#333333" xlink:href="#path-3"></use>
+            </g>
+            <rect id="Rectangle-38-Copy-2" stroke="#CCCCCC" fill="#FBFBFB" x="23" y="97" width="254" height="115" rx="2"></rect>
+            <rect id="Rectangle-38-Copy-5" fill="#EEEEEE" filter="url(#filter-4)" x="192" y="97" width="84.6699982" height="115" rx="2"></rect>
+            <text id="Osm:User.view.user-l" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" fill="#333333">
+                <tspan x="33" y="112">Osm:User.view.user location/es</tspan>
+            </text>
+            <text id="User-location" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#333333">
+                <tspan x="33" y="132">User location</tspan>
+            </text>
+            <rect id="Rectangle-46" stroke="#777777" fill="#FFFFFF" x="33" y="142" width="149" height="37"></rect>
+            <text id="Your-translation" font-family="HelveticaNeue, Helvetica Neue" font-size="10" font-weight="normal" fill="#777777">
+                <tspan x="38" y="156">Your translation</tspan>
+            </text>
+            <g id="Group-3" transform="translate(33.000000, 186.000000)">
+                <g id="Group">
+                    <rect id="Rectangle-47" fill="#347BFF" x="0" y="0" width="62" height="18" rx="2"></rect>
+                    <text id="Save" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="10" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="19" y="13">Save</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(67.000000, 0.000000)">
+                    <rect id="Rectangle-47-Copy" stroke="#CCCCCC" fill="#EEEEEE" x="0" y="0" width="62" height="18" rx="2"></rect>
+                    <text id="Skip" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="10" font-weight="bold" fill="#777777">
+                        <tspan x="19" y="13">Skip</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

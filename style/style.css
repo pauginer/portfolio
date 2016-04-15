@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter/charter_regular-webfont.eot');
+  src: url('../fonts/charter/charter_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter/charter_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter/charter_bold-webfont.eot');
+  src: url('../fonts/charter/charter_bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter/charter_bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter/charter_italic-webfont.eot');
+  src: url('../fonts/charter/charter_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter/charter_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'charter';
+  src: url('../fonts/charter/charter_bold_italic-webfont.eot');
+  src: url('../fonts/charter/charter_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/charter/charter_bold_italic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Bold.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Bold?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Bold.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-BoldItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-BoldItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-BoldItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-BoldItalic.svg') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Book.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Book?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Book.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-BookItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-BookItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-BookItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-BookItalic.svg') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Heavy.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Heavy?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Heavy.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Heavy.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-HeavyItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-HeavyItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-HeavyItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-HeavyItalic.svg') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Light.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Light?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Light.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-LightItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-LightItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-LightItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-LightItalic.svg') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Medium.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Medium?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Medium.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-MediumItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-MediumItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-MediumItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-MediumItalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Semibold.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Semibold?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Semibold.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-SemiboldItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-SemiboldItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-SemiboldItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-SemiboldItalic.svg') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-Thin.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-Thin?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-Thin.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-Thin.svg') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cooperhewitt';
+  src: url('../fonts/cooperhewitt/CooperHewitt-ThinItalic.eot');
+  src: url('../fonts/cooperhewitt/CooperHewitt-ThinItalic?#iefix') format('embedded-opentype'), url('../fonts/cooperhewitt/CooperHewitt-ThinItalic.woff') format('woff'), url('../fonts/cooperhewitt/CooperHewitt-ThinItalic.svg') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+body {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  flex-direction: column;
+  font-family: charter;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  max-width: 960px;
+}
+h1 {
+  font-family: cooperhewitt;
+  font-weight: bold;
+  font-size: xx-large;
+}
+section {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  display: flex;
+  flex: 1;
+  font-family: cooperhewitt;
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 20px;
+  transition: flex 0.5s ease;
+}
+.contents {
+  display: flex;
+  flex: 2;
+  flex-wrap: wrap;
+}
+@media all and (max-width: 965px) {
+  .title {
+    flex: 0.5;
+  }
+}
+@media all and (max-width: 810px) {
+  section {
+    flex-direction: column;
+  }
+  .title {
+    flex: 0.5;
+  }
+  body {
+    max-width: 620px;
+  }
+}
+@media all and (max-width: 660px) {
+  body {
+    max-width: 300px;
+  }
+}
+.project[name="content-translation"] .image {
+  background: transparent url("../media/cover-content-translation.png") center center no-repeat;
+  background-image: -webkit-linear-gradient(transparent, transparent), url("../media/cover-content-translation.svg");
+  background-image: linear-gradient(transparent, transparent), url("../media/cover-content-translation.svg");
+  background-size: auto;
+}
+.project[name="language-selection"] .image {
+  background: transparent url("../media/cover-language-selection.png") center center no-repeat;
+  background-image: -webkit-linear-gradient(transparent, transparent), url("../media/cover-language-selection.svg");
+  background-image: linear-gradient(transparent, transparent), url("../media/cover-language-selection.svg");
+  background-size: auto;
+  background-image: url("../media/cover-language-selection.png");
+  background-color: #333;
+}
+.project[name="message-translation"] .image {
+  background: transparent url("../media/cover-message-translation.png") center center no-repeat;
+  background-image: -webkit-linear-gradient(transparent, transparent), url("../media/cover-message-translation.svg");
+  background-image: linear-gradient(transparent, transparent), url("../media/cover-message-translation.svg");
+  background-size: auto;
+}
+.project[name="language-tools"] .image {
+  background-image: url("../media/cover-language-tools.jpg");
+  background-size: cover;
+}
+.project[name="multimedia-viewer"] .image {
+  background-image: url("../media/cover-multimedia-viewer.jpg");
+  background-size: cover;
+}
+.project[name="invisible-gradient"] .image {
+  background: transparent url("../media/cover-invisible-gradient.png") center center no-repeat;
+  background-image: -webkit-linear-gradient(transparent, transparent), url("../media/cover-invisible-gradient.svg");
+  background-image: linear-gradient(transparent, transparent), url("../media/cover-invisible-gradient.svg");
+  background-size: auto;
+  background-image: url("../media/cover-invisible-gradient.png");
+  background-color: #333;
+}
+.project[name="onboarding"] .image {
+  background-image: url("../media/cover-onboarding.png");
+  background-size: cover;
+  background-color: #333;
+}
+.project[name="cross-wiki-notifications"] .image {
+  background: transparent url("../media/cover-cross-wiki-notifications.png") center center no-repeat;
+  background-image: -webkit-linear-gradient(transparent, transparent), url("../media/cover-cross-wiki-notifications.svg");
+  background-image: linear-gradient(transparent, transparent), url("../media/cover-cross-wiki-notifications.svg");
+  background-size: auto;
+  background-color: #333;
+}
+.project[name="structured-discussions"] .image {
+  background: transparent url("../media/cover-structured-discussions.png") center center no-repeat;
+  background-image: -webkit-linear-gradient(transparent, transparent), url("../media/cover-structured-discussions.svg");
+  background-image: linear-gradient(transparent, transparent), url("../media/cover-structured-discussions.svg");
+  background-size: auto;
+  background-image: url("../media/cover-structured-discussions.png");
+  background-color: #333;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 10px 60px 0;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+}
+.project:hover .image {
+  -webkit-filter: hue-rotate(75deg) contrast(120%);
+}
+.project:active .image {
+  -webkit-filter: hue-rotate(0deg);
+  transform: scale(1.02);
+  box-shadow: 0 3px 6px 0 #ccc;
+}
+.project:visited {
+  color: #555;
+}
+.project .image {
+  width: 300px;
+  height: 300px;
+  background-color: #EEE;
+  transition: -webkit-filter 0.25s ease, transform 0.1s ease;
+}
+.project .name {
+  font-family: cooperhewitt;
+  font-weight: 500;
+  font-size: x-large;
+  margin-top: 10px;
+}
+.project .description {
+  font-size: large;
+}

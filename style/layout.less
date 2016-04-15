@@ -1,0 +1,63 @@
+//"main":"style.less"
+
+body {
+  display: flex;
+  margin: 0 auto;
+  padding: 10px;
+  flex-direction: column;
+  font-family: charter;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  max-width: 960px;
+}
+
+h1 {
+  font-family: cooperhewitt;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  display: flex;
+  flex: 1;
+  font-family: cooperhewitt;
+  font-weight: 500;
+  font-size: large;
+  margin-bottom: 20px;
+  transition: flex 0.5s ease;
+}
+
+.contents {
+  display: flex;
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+//Responsive layout
+@media all and (max-width: 965px){
+  .title {
+    flex: 0.5;
+  }
+}
+
+@media all and (max-width: 810px){
+  section {
+    flex-direction: column;
+  }
+  .title {flex: 0.5;}
+  body {
+    max-width: 620px;
+  }
+}
+
+@media all and (max-width: 660px){
+  body {
+    max-width: 300px;
+  }
+}
